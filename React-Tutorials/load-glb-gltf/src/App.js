@@ -1,11 +1,10 @@
 import './App.css';
+import { ShowDonut } from "./components/ShowDonut.jsx"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Testing Text
-      </header>
+      <ShowDonut/>
     </div>
   );
 }
