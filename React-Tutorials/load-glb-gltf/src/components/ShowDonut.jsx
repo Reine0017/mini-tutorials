@@ -1,13 +1,16 @@
-import React, {Suspense} from 'react';
+import React, { Suspense } from 'react';
 import { useGLTF, OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber"
 
-function Model() {
-  const { scene } = useGLTF("donut48.glb")
-  return <primitive object={scene} />;
-}
+import Model from "./Donut48"
 
-export function ShowDonut(props) {
+// function Model() {
+//   const { scene } = useGLTF("donut48.glb")
+//   return <primitive object={scene} />;
+// }
+
+function ShowDonut(props) {
+
   return (
     <div style = {{height:"100vh", backgroundColor:"#fde2e4"}}>
       <Canvas camera={{position: [10, 18, 23], fov: 0.5 }}>
@@ -20,3 +23,5 @@ export function ShowDonut(props) {
     </div>
   );
 }
+
+export default ShowDonut

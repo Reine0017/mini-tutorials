@@ -1,5 +1,5 @@
 import './App.css';
-import { ShowDonut } from "./components/ShowDonut.jsx"
+import ShowDonut from "./components/ShowDonut.jsx"
 
 function App() {
   return (
