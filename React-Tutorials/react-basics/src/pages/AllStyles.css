@@ -18,10 +18,52 @@
 	padding: 20px;
 }
 
+.ReactPortalPage .sectionContent {
+	display: block;
+	margin: 10px;
+}
+
 .ReactPortalPage .withoutPortal {
 	background-color: rgb(218, 131, 131, 0.5);
 }
 
 .ReactPortalPage .withPortal {
 	background-color: rgb(148, 214, 49, 0.5);
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+
+.modal {
+	background-color: seashell;
+	padding: 20px;
+	position: absolute;
+	top: 50%;
+	right: 45%;
+	z-index: 2;
+}
+
+.modal1 {
+	background-color: seashell;
+	padding: 20px;
+	position: absolute;
+	top: 50%;
+	right: 45%;
+	z-index: 2;
+}
+
+.overlay1 {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.7);
 }
