@@ -1,0 +1,27 @@
+.Page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.ReactPortalPage {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+	height: 100vh;
+}
+
+.ReactPortalPage > div {
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.ReactPortalPage .withoutPortal {
+	background-color: rgb(218, 131, 131, 0.5);
+}
+
+.ReactPortalPage .withPortal {
+	background-color: rgb(148, 214, 49, 0.5);
+}
