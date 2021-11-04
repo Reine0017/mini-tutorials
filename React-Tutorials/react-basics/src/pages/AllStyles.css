@@ -50,14 +50,6 @@
 	z-index: 2;
 }
 
-.modal1 {
-	background-color: seashell;
-	padding: 20px;
-	position: absolute;
-	top: 50%;
-	right: 45%;
-}
-
 .overlay1 {
 	position: fixed;
 	top: 0;
@@ -65,4 +57,12 @@
 	left: 0;
 	right: 0;
 	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal1 {
+	background-color: seashell;
+	padding: 20px;
+	position: absolute;
+	top: 50%;
+	right: 45%;
 }

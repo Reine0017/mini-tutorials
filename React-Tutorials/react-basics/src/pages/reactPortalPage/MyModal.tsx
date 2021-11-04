@@ -1,4 +1,3 @@
-import React from 'react';
 import "../AllStyles.css"
 
 interface MyModalProps {
