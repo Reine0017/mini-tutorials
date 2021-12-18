@@ -1,5 +1,5 @@
-imutils==0.5.4
-numpy==1.21.4
-Pillow==8.4.0
-streamlit==1.3.0
-opencv-python==4.5.4.60
+imutils==0.5.3
+numpy==1.17.4
+streamlit==0.80.0
+Pillow==8.3.0
+opencv-python-headless
