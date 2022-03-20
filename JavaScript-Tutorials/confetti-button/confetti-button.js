@@ -1,7 +1,10 @@
 const createConfetti = () => {
-  if(document.querySelector("p")){
-    document.querySelector(".confettiButton").textContent = "Click me for confetti!"
-    document.querySelector("p").remove()
+  const confettiBtn = document.querySelector(".confettiButton")
+  const words = document.querySelector("p")
+  if(words){
+    confettiBtn.textContent = "Click me for confetti!"
+    confettiBtn.style.backgroundColor = "aquamarine"
+    words.remove()
     return
   }
   const para = document.createElement('p');
@@ -9,7 +12,9 @@ const createConfetti = () => {
   document.body.appendChild(para);
   const jsConfetti = new JSConfetti()
   jsConfetti.addConfetti()
-  document.querySelector(".confettiButton").textContent = "Hide Words"
+  
+  confettiBtn.textContent = "Hide Words"
+  confettiBtn.style.backgroundColor = "skyblue"
 }
 
 const confettiBtn = document.querySelector(".confettiButton")
