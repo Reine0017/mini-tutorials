@@ -1,0 +1,12 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.confettiButton {
+  background-color: aquamarine;
+}
