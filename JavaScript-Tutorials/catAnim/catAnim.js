@@ -1,4 +1,5 @@
-let cat = document.querySelector("img")
+let cat = document.getElementById("cat")
+let hat = document.getElementById("hat")
 let angle = Math.PI / 2
 
 function animate(time, lastTime){
@@ -8,6 +9,9 @@ function animate(time, lastTime){
 
   cat.style.top = (Math.sin(angle) * 200) + "px"
   cat.style.left = (Math.cos(angle) * 200) + "px"
+
+  hat.style.top = (-Math.sin(angle)* 200) + "px"
+  hat.style.left = (-Math.cos(angle) * 200) + "px"
   requestAnimationFrame(newTime => animate(newTime, time))
 }
 

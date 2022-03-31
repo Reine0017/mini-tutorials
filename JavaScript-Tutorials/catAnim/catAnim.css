@@ -10,7 +10,12 @@ p {
   text-align: center;
 }
 
-p > img {
+p > #cat {
+  position: relative;
+  width: 80px;
+}
+
+p > #hat {
   position: relative;
   width: 80px;
 }
