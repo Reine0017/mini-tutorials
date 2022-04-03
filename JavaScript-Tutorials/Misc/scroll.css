@@ -1,0 +1,7 @@
+#progress {
+  border-bottom: 2px solid red;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
